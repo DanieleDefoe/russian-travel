@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+  .place__title_wrap {
+    word-spacing: 50px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .place__title_wrap {
+    word-spacing: unset;
+  }
+}

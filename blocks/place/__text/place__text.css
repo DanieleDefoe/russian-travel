@@ -1,0 +1,31 @@
+.place__text {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .place__text {
+    gap: 32px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .place__text {
+    gap: 28px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .place__text {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .place__text {
+    padding: 0 16px;
+  }
+}

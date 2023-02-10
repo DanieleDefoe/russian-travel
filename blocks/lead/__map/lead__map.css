@@ -1,0 +1,30 @@
+.lead__map {
+  margin: 90px 0 0 0;
+  padding: 0;
+  width: 95%;
+  max-width: 937px;
+  object-fit: cover;
+  align-self: center;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1024px) {
+  .lead__map {
+    max-width: 884px;
+    margin: 87px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .lead__map {
+    max-width: 732px;
+    margin: 75px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .lead__map {
+    max-width: 305px;
+    margin: 30px 0 0 0;
+  }
+}

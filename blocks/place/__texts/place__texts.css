@@ -1,0 +1,15 @@
+.place__texts {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+@media only screen and (max-width: 425px) {
+  .place__texts {
+    padding: 0 16px;
+  }
+}

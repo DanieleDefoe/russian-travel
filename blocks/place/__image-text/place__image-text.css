@@ -1,0 +1,30 @@
+.place__image-text {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .place__image-text {
+    gap: 32px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .place__image-text {
+    gap: 28px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .place__image-text {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .place__image-text {
+    gap: 32px;
+  }
+}

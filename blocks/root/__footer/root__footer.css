@@ -1,0 +1,15 @@
+.root__footer {
+  margin: 92px auto 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .root__footer {
+    margin: 90px auto 24px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .root__footer {
+    margin: 64px auto 24px;
+  }
+}

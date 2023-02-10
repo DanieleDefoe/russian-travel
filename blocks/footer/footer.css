@@ -1,0 +1,28 @@
+.footer {
+  width: calc(100% - 96px);
+  max-width: 1184px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 970px) {
+  .footer {
+    width: calc(100% - 48px);
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .footer {
+    width: calc(100% - 32px);
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .footer {
+    align-items: flex-start;
+  }
+}

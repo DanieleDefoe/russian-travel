@@ -1,0 +1,26 @@
+.place__image {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 460px;
+  max-height: 460px;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .place__image {
+    max-width: 100%;
+  }
+}

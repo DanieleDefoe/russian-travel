@@ -1,0 +1,15 @@
+.root__photo-grid {
+  margin: 92px auto 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .root__photo-grid {
+    margin: 88px auto 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .root__photo-grid {
+    margin: 64px auto 0;
+  }
+}

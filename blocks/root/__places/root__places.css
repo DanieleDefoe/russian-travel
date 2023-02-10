@@ -1,0 +1,15 @@
+.root__places {
+  margin: 92px auto 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .root__places {
+    margin: 88px auto 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .root__places {
+    margin: 64px auto 0;
+  }
+}

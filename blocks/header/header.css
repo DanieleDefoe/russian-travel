@@ -1,0 +1,21 @@
+.header {
+  padding: 0;
+  box-sizing: border-box;
+  width: calc(100% - 96px);
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header {
+    width: calc(100% - 32px);
+  }
+}

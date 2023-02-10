@@ -1,0 +1,15 @@
+.lead {
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .root__lead {
+    max-width: 928px;
+  }
+}
