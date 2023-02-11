@@ -1,6 +1,5 @@
 @import '../vendor/normalize.css';
 @import '../vendor/fonts/fonts.css';
-@import '../blocks/root/__main/root__main.css';
 @import '../blocks/root/__lead/root__lead.css';
 @import '../blocks/root/__intro/root__into.css';
 @import '../blocks/root/__photo-grid/root__photo-grid.css';
