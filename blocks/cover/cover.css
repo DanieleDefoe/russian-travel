@@ -1,8 +1,7 @@
 .cover {
   width: 100%;
   max-width: 1184px;
-  height: 100vh;
-  max-height: 740px;
+  min-height: 200px;
   box-sizing: border-box;
   padding: 0;
   display: flex;
