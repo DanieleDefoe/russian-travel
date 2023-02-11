@@ -1,9 +1,9 @@
-.root__lead {
+.main__lead {
   margin: 56px auto 0;
 }
 
 @media only screen and (max-width: 1024px) {
-  .root__lead {
+  .main__lead {
     margin: 48px auto 0;
   }
 }
