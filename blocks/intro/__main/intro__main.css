@@ -1,0 +1,17 @@
+.intro__main {
+  margin: 92px auto 0;
+  max-width: 690px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .intro__main {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .intro__main {
+    margin: 64px auto 0;
+  }
+}
