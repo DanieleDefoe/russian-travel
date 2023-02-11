@@ -6,6 +6,14 @@
   line-height: 58px;
   text-align: left;
   color: #fff;
+  max-width: 690px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro__title {
+    max-width: 720px;
+  }
 }
 
 @media only screen and (max-width: 425px) {

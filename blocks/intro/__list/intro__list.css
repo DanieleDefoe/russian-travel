@@ -3,4 +3,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 690px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro__list {
+    max-width: 720px;
+  }
 }
