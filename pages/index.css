@@ -1,7 +1,6 @@
 @import '../vendor/normalize.css';
 @import '../vendor/fonts/fonts.css';
 @import '../blocks/root/__intro/root__into.css';
-@import '../blocks/root/__photo-grid/root__photo-grid.css';
 @import '../blocks/root/__places/root__places.css';
 @import '../blocks/root/__cover/root__cover.css';
 @import '../blocks/root/__footer/root__footer.css';
@@ -13,6 +12,7 @@
 @import '../blocks/header/__link/header__link.css';
 @import '../blocks/header/__link/_active/header__link_active.css';
 @import '../blocks/main/__lead/main__lead.css';
+@import '../blocks/main/__photo-grid/main__photo-grid.css';
 @import '../blocks/lead/lead.css';
 @import '../blocks/lead/__title/lead__title.css';
 @import '../blocks/lead/__subtitle/lead__subtitle.css';
