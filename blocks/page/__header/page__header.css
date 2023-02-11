@@ -1,9 +1,9 @@
-.root__header {
+.page__header {
   margin: 28px auto 0;
 }
 
 @media only screen and (max-width: 425px) {
-  .root__header {
+  .page__header {
     margin: 16px auto 0;
   }
 }
