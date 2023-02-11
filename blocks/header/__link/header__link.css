@@ -5,6 +5,7 @@
   text-decoration: none;
   color: #fff;
   transition: opacity .3s ease-out;
+  text-transform: capitalize;
 }
 
 .header__link:hover {
