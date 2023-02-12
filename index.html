@@ -20,7 +20,7 @@
     <link rel="shortcut icon" type="image/svg" href="./images/logo.svg" />
   </head>
   <body class="page">
-    <header class="header page__header">
+    <header class="header page__header" role="banner" aria-label="шапка страницы">
       <img
         src="./images/header__logo.svg"
         alt="Логотип карты России"
@@ -31,10 +31,10 @@
         <li><a class="header__link header__link_active" href="#">ru</a></li>
         <li><a class="header__link" href="#">en</a></li>
       </ul>
-    </header>
-    <main class="main page__main">
+    </header >
+    <main class="main page__main" role="main" aria-label="главное содержимое страницы">
       <section class="lead main__lead">
-        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
+        <h1 class="lead__title" role="heading">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">
           Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.
         </p>
@@ -94,7 +94,7 @@
             </li>
           </ul>
       </section>
-      <section class="photo-grid main__photo-grid">
+      <section class="photo-grid main__photo-grid" aria-label="таблица с фотографиями">
         <img
           src="./images/photo-grid-item-1.jpg"
           alt="Внутри поезда, у окна, за окном природа"
@@ -168,13 +168,13 @@
           class="photo-grid__item"
         />
       </section>
-      <section class="places main__places">
-        <article class="place">
+      <section class="places main__places" aria-label="секция с описаниями и фотографиями различных интересных мест">
+        <article class="place" role="article">
           <div class="place__text">
             <h2 class="place__title place__title_wrap">Куршская коса</h2>
             <div class="place__website">
               <p class="place__url-heading">url</p>
-              <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+              <a href="http://park-kosa.ru" class="place__link" rel="noreferrer nofollow">park-kosa.ru</a>
             </div>
           </div>
           <div class="place__image-text">
@@ -204,7 +204,7 @@
             </div>
           </div>
         </article>
-        <article class="place">
+        <article class="place" role="article">
           <div class="place__text">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
@@ -212,6 +212,7 @@
               <a
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                 class="place__link"
+                rel="noreferrer nofollow"
                 >National Geographic</a
               >
             </div>
@@ -243,7 +244,7 @@
             </div>
           </div>
         </article>
-        <article class="place">
+        <article class="place" role="article">
           <div class="place__text">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
@@ -251,6 +252,7 @@
               <a
                 href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
                 class="place__link"
+                rel="noreferrer nofollow"
                 >YouTube</a
               >
             </div>
@@ -282,12 +284,12 @@
             </div>
           </div>
         </article>
-        <article class="place">
+        <article class="place" role="article">
           <div class="place__text">
             <h2 class="place__title place__title_break">Зимний Байкал</h2>
             <div class="place__website">
               <p class="place__url-heading">url</p>
-              <a href="https://vk.com/baikalmile" class="place__link"
+              <a href="https://vk.com/baikalmile" class="place__link" rel="noreferrer nofollow"
                 >http://vk.com/baikalmile</a
               >
             </div>
@@ -317,12 +319,12 @@
             </div>
           </div>
         </article>
-        <article class="place">
+        <article class="place" role="article">
           <div class="place__text">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
               <p class="place__url-heading">url</p>
-              <a href="http://vodlozero.ru" class="place__link"
+              <a href="http://vodlozero.ru" class="place__link" rel="noreferrer nofollow"
                 >https://vodlozero.ru/</a
               >
             </div>
@@ -368,8 +370,8 @@
         </p>
       </section>
     </main>
-    <footer class="footer page__footer">
-      <nav class="footer__navigation">
+    <footer class="footer page__footer" role="contentinfo" aria-label="дополнительная информация, ссылки и автор">
+      <nav class="footer__navigation" role="navigation" aria-label="дополнительная навигация">
         <ul class="footer__links">
           <li class="footer__links-item">
             <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
